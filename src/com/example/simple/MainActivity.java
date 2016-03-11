@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				Intent intent = new Intent("com.lxq.test");
 				sendBroadcast(intent);
-				
+				//小心
 			}
 		});
 	}
